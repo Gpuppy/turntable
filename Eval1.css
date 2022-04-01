@@ -26,14 +26,30 @@ body
   text-decoration:none;
 }
 
-.vinyl
+main
 {
-  display: flex;
-  background-color:darkslategray;
+  display:flex;
+  justify-content: space-between;
+}
+.first
+{
+ 
+}
+.new-arrivals, .classic
+{
+  
 }
 
-.vinyl img
+img
+
 {
+  display: flex;
   height:175px;
   width:300px;
+}
+
+h2
+{
+  display: flex;
+  justify-content:center;
 }

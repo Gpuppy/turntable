@@ -1,4 +1,39 @@
+body
+{
+  width:100%;
+
+}
 .banner
 {
+
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:large;
   display: flex;
+
+ }
+
+.nav-bar 
+{
+  display: flex;
+  justify-content:center;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+
+.nav-bar a
+{
+  text-decoration:none;
+}
+
+.vinyl
+{
+  display: flex;
+  background-color:darkslategray;
+}
+
+.vinyl img
+{
+  height:175px;
+  width:300px;
 }

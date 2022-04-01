@@ -29,10 +29,21 @@ body
 main
 {
   display:flex;
+  
   justify-content: space-between;
+  /*background-color:sienna;*/
+  transition:transform:2s;
 }
+
+main:hover img
+{
+  transform: scale(1.1);
+
+}
+
 .first
 {
+  
  
 }
 .new-arrivals, .classic
@@ -45,11 +56,20 @@ img
 {
   display: flex;
   height:175px;
-  width:300px;
+  width:510px;
 }
 
-h2
+
+ 
+
+h2 a
 {
-  display: flex;
+  display:flex;
   justify-content:center;
+  color:black;
+  position:3;
+  text-decoration: none;
 }
+
+
+

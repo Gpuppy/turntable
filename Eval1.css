@@ -1,6 +1,6 @@
 body
 {
-  width:100%;
+  width: 1020px;
 
 }
 .banner
@@ -28,10 +28,9 @@ body
 
 main
 {
-  display:flex;
-  
-  justify-content: space-between;
-  /*background-color:sienna;*/
+  display:flex;  
+  flex-wrap: wrap;
+      /*background-color:sienna;*/
   transition:transform:2s;
 }
 
@@ -79,5 +78,36 @@ h2 a
   text-decoration: none;
 }
 
+.jukebox img
+{
+  display: flex;
+  transition: transform:2s;
+   
+}
 
 
+
+.jukebox:hover img
+{
+  transform: scale(1.1);
+}
+
+.suitcase img
+{
+  transition: transform: 2s;
+}
+.suitcase:hover img
+{
+  transform: scale(1.1);
+}
+
+.footer
+{
+  background-color: black;
+  height: 100px;
+}
+
+.footer ul
+{
+  color:white;
+}

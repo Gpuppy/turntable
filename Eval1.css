@@ -1,28 +1,36 @@
 body
 {
-  width: 1020px;
-
+  width: 1000px;
 }
+
 .banner
 {
-
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size:large;
   display: flex;
-
  }
 
-.nav-bar 
+.nav-bar
+{
+    
+}
+
+.nav-bar ul
 {
   display: flex;
-  justify-content:center;
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+  justify-content:space-evenly;
+  flex-direction: row;
+  border-top: 1px black solid;  
+  list-style-type:none;
+  height:40px; 
+  font-size:20px ;
+  
 }
 
 
-.nav-bar a
+ul li a
 {
+  
   text-decoration:none;
 }
 
@@ -30,20 +38,19 @@ main
 {
   display:flex;  
   flex-wrap: wrap;
-      /*background-color:sienna;*/
+  /*background-color:sienna;*/
   transition:transform:2s;
+  
 }
 
-
-
-
-.first
+.first, .second, .third
 {
   
- 
 }
-.new-arrivals, .classic
+
+.new-arrivals,.retro, .jukebox, .suitcase, .withstand, .bluetooth
 {
+ 
   transition:transform:2s;
 }
 
@@ -53,7 +60,7 @@ main
 
 }
 
-.classic:hover img
+.retro:hover img
 {
   transform: scale(1.1);
 }
@@ -63,7 +70,7 @@ img
 {
   display: flex;
   height:175px;
-  width:510px;
+  width:500px;
 }
 
 
@@ -76,6 +83,7 @@ h2 a
   color:black;
   position:3;
   text-decoration: none;
+  border-bottom: 2px black solid;
 }
 
 .jukebox img
@@ -84,8 +92,6 @@ h2 a
   transition: transform:2s;
    
 }
-
-
 
 .jukebox:hover img
 {
@@ -101,13 +107,31 @@ h2 a
   transform: scale(1.1);
 }
 
+.withstand:hover img
+{
+  transform:scale(1.1) ;
+}
+
+.bluetooth:hover img
+{
+  transform: scale(1.1);
+}
+
+
 .footer
 {
   background-color: black;
   height: 100px;
 }
 
-.footer ul
+.footer li
 {
   color:white;
+}
+
+.footer
+{
+  display: flex;
+  justify-content:space-evenly;
+  
 }

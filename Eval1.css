@@ -118,20 +118,22 @@ h2 a
 }
 
 
-.footer
+.footer 
 {
   background-color: black;
   height: 100px;
-}
-
-.footer li
-{
+  display: flex;
+  justify-content:space-evenly;
   color:white;
 }
 
-.footer
-{
-  display: flex;
-  justify-content:space-evenly;
+
+
   
+
+
+.footer p
+{
+
 }
+ 

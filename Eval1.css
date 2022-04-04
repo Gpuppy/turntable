@@ -118,22 +118,38 @@ h2 a
 }
 
 
-.footer 
+.site-footer
 {
+  display:flex;
+  flex-direction:row;
   background-color: black;
   height: 100px;
-  display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   color:white;
 }
 
-
-
-  
-
-
-.footer p
+.address
 {
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  width: 400px;
 
 }
- 
+   
+.horaires
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  width: 400px;
+}
+
+.socials img
+{
+  display:flex;
+  flex-direction: column;
+  justify-items:center;
+  height:30px;
+  width:30px;
+}

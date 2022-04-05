@@ -39,7 +39,7 @@ main
   display:flex;  
   flex-wrap: wrap;
   /*background-color:sienna;*/
-  transition:transform:2s;
+  transition:transform 2s;
   
 }
 
@@ -51,7 +51,7 @@ main
 .new-arrivals,.retro, .jukebox, .suitcase, .withstand, .bluetooth
 {
  
-  transition:transform:2s;
+  transition:transform 2s;
 }
 
 .new-arrivals:hover img
@@ -81,7 +81,6 @@ h2 a
   display:flex;
   justify-content:center;
   color:black;
-  position:3;
   text-decoration: none;
   border-bottom: 2px black solid;
 }
@@ -89,7 +88,7 @@ h2 a
 .jukebox img
 {
   display: flex;
-  transition: transform:2s;
+  transition: transform 2s;
    
 }
 
@@ -100,7 +99,7 @@ h2 a
 
 .suitcase img
 {
-  transition: transform: 2s;
+  transition:transform 2s;
 }
 .suitcase:hover img
 {
@@ -131,9 +130,9 @@ h2 a
 .address
 {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content:center ;
-  width: 400px;
+  width: 350px;
 
 }
    
@@ -141,15 +140,27 @@ h2 a
 {
   display: flex;
   flex-direction: column;
-  justify-content:center ;
-  width: 400px;
+  justify-content:center;
+  width: 350px;
+}
+
+.socials
+{
+  display:flex;
+  justify-content:center;
+  width:300px;
+ 
 }
 
 .socials img
 {
-  display:flex;
-  flex-direction: column;
-  justify-items:center;
   height:30px;
   width:30px;
+}
+
+.facebook, .instagram
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

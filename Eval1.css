@@ -1,6 +1,6 @@
 body
 {
-  width: 1000px;
+  width: 100%;
 }
 
 .banner
@@ -10,10 +10,6 @@ body
   display: flex;
  }
 
-.nav-bar
-{
-    
-}
 
 .nav-bar ul
 {
@@ -39,16 +35,10 @@ main
   display:flex;  
   flex-wrap: wrap;
   /*background-color:sienna;*/
-  transition:transform 2s;
   
 }
 
-.first, .second, .third
-{
-  
-}
-
-.new-arrivals,.retro, .jukebox, .suitcase, .withstand, .bluetooth
+.new-arrivals img , .retro img,.jukebox img , .suitcase img , .withstand img, .bluetooth img
 {
  
   transition:transform 2s;
@@ -64,43 +54,12 @@ main
 {
   transform: scale(1.1);
 }
-
-img
-
-{
-  display: flex;
-  height:175px;
-  width:500px;
-}
-
-
- 
-
-h2 a
-{
-  display:flex;
-  justify-content:center;
-  color:black;
-  text-decoration: none;
-  border-bottom: 2px black solid;
-}
-
-.jukebox img
-{
-  display: flex;
-  transition: transform 2s;
-   
-}
-
 .jukebox:hover img
 {
   transform: scale(1.1);
 }
 
-.suitcase img
-{
-  transition:transform 2s;
-}
+
 .suitcase:hover img
 {
   transform: scale(1.1);
@@ -115,6 +74,25 @@ h2 a
 {
   transform: scale(1.1);
 }
+
+
+img
+
+{
+  height:175px;
+  width:500px;
+}
+
+
+h2 a
+{
+  display:flex;
+  justify-content:center;
+  color:black;
+  text-decoration: none;
+  border-bottom: 2px black solid;
+}
+
 
 
 .site-footer
@@ -163,4 +141,22 @@ h2 a
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+
+@media screen and (max-width:700px){
+  
+    .nav-bar ul 
+    {
+      display: block;
+      margin-bottom: 20px;
+      height:15vh;
+
+    }
+    .site-footer
+    {
+      width:100%;
+    }
+    
 }

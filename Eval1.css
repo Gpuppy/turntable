@@ -5,7 +5,7 @@ body
 
 .banner
 {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Pacifico', cursive; 
   font-size:large;
   display: flex;
  }
@@ -88,7 +88,7 @@ h2 a
 {
   display:flex;
   justify-content:center;
-  color:black;
+  color:#595959;
   text-decoration: none;
   border-bottom: 2px black solid;
 }
@@ -142,7 +142,6 @@ h2 a
   flex-direction: column;
   justify-content: center;
 }
-
 
 
 @media screen and (max-width:700px){
